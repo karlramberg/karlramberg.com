@@ -11,7 +11,7 @@ h1 {
 
 p {
     font-family: IBM Plex Mono, monospace;
-    font-size: 14px;
+    font-size: 12px;
     color: #727272;
 }
 
@@ -22,5 +22,7 @@ a {
 }
 
 a:hover {
+    font-style: normal;
+    color: #202020;
     text-decoration: underline;
 }
