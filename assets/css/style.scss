@@ -3,10 +3,19 @@
 
 @import "{{ site.theme }}";
 
-h1 {
+.header {
     font-family: Staatliches, serif;
+    font-size: 32px;
     font-style: normal;
-    color: #0000ff;
+    color: #0048e5;
+}
+
+.header a {
+    color: #0048e5;
+} 
+
+.header:hover {
+    text-decoration: underline;
 }
 
 p {

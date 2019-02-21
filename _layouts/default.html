@@ -15,7 +15,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <div class="header">
+	    <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
+	</div>
         
       </header>
       <section>
@@ -24,7 +26,6 @@
 
       </section>
       <footer>
-	<p>contact at kramberg27@gmail.com<p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
