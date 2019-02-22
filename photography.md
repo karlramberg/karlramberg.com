@@ -7,5 +7,6 @@ permalink: /photography/
 
 ## photography
 
-[**York Street**](/photography/yorkstreet)
+[**york street >**](/photography/yorkstreet)
 ![droopy](/assets/galleries/yorkstreet/droopy.jpg)
+

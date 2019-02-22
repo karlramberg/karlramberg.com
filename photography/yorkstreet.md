@@ -3,6 +3,6 @@ layout: default
 permalink: /photography/yorkstreet/
 ---
 
-## york street
+## photography / york street
 
 ![droopy](/assets/galleries/yorkstreet/droopy.jpg)
