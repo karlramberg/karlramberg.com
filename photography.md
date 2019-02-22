@@ -9,7 +9,7 @@ permalink: /photography/
 
 <br>
 
-[![droopy](/assets/photography/yorkstreet/droopy.jpg)](/photography/yorkstreet/)
+[![cone](/assets/photography/yorkstreet/cone.jpg)](/photography/yorkstreet/)
 [york street &#8674;](/photography/yorkstreet/)
 
 <br>
