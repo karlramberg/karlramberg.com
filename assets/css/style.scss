@@ -15,7 +15,8 @@
     color: #0048e5;
 } 
 
-.header:hover {
+.header a:hover {
+    color: #0048e5;
     text-decoration: underline;
 }
 
@@ -26,13 +27,6 @@ h2 {
     font-weight: normal;
     color: #202020;
     margin: 10px 0 20px;
-}
-
-h3 {
-    font-family: Staatliches, serif;
-    font-size: 18px;
-    font-style: normal;
-    color: #202020;
 }
 
 p {
