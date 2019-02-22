@@ -7,5 +7,4 @@ permalink: /photography/
 
 ## photography
 
-### downtown
-
+[### york street](/photography/yorkstreet)
