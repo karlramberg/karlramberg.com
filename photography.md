@@ -7,6 +7,6 @@ permalink: /photography/
 
 ## photography
 
-[york street &rarr;](/photography/yorkstreet)
-![droopy](/assets/galleries/yorkstreet/droopy.jpg)
+[york street @icon-arrow-right](/photography/yorkstreet)
+[![droopy](/assets/galleries/yorkstreet/droopy.jpg)](/photography/yorkstreet)
 
