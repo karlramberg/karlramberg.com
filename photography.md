@@ -4,7 +4,12 @@ title: Photography
 category: photography
 permalink: /photography/
 ---
+[![vinyl](/assets/photography/throughwindows/vinyl.jpg)](/photography/throughwindows/)
+[through windows &#8674;](/photography/throughwindows/)
 
-[york street &#8674;](/photography/yorkstreet)
-[![droopy](/assets/galleries/yorkstreet/droopy.jpg)](/photography/yorkstreet)
+<br>
 
+[![droopy](/assets/photography/yorkstreet/droopy.jpg)](/photography/yorkstreet/)
+[york street &#8674;](/photography/yorkstreet/)
+
+<br>
