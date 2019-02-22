@@ -5,10 +5,10 @@ permalink: /programming/pfh/
 
 ![pfh](/assets/programming/pfh.png)
 
-Pink Floyd Hourly is fairly simple, it's just a Twitter-bot for tweeting Pink Floyd lyrics every hour, on the hour.
+[Pink Floyd Hourly](https://twitter.com/pinkfloydhourly) is simple, it's a Twitter-bot for tweeting Pink Floyd lyrics every hour, on the hour.
 
-It runs off of a basic Python script using the [tweepy](https://www.tweepy.org) library and a simple Linux crob job.
+PFH runs off of a basic Python script using the [tweepy](https://www.tweepy.org) library and a Linux crob job.
 
-Thanks to [@ejmg](https://github.com/ejmg) for a great tutorial.
+Thanks to [@ejmg](https://github.com/ejmg) for a great tutorial on implementing tweepy.
 
-Check [it](https://twitter.com/pinkfloydhourly) or it's [source](https://github.com/karledramberg/pfh) out!
+Check the [source](https://github.com/karledramberg/pfh) out on GitHub!
