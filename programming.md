@@ -22,3 +22,5 @@ permalink: /programming/
 
 [![thissite](/assets/programming/personalsite.png)](/programming/personalsite/)
 [this site  &#8674;](/programming/personalsite/)
+
+<br>
