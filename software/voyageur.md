@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /programming/voyageur/
+permalink: /software/voyageur/
 ---
 ![voyageur](/assets/programming/voyageur.jpg)
 

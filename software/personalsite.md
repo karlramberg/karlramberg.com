@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /programming/personalsite/
+permalink: /software/personalsite/
 ---
 
 Your looking at it.

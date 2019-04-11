@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /programming/ymir/
+permalink: /software/ymir/
 ---
 
 ![ymirLogo](/assets/programming/ymirLogo.png)

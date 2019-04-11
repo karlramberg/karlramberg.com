@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /programming/pfh/
+permalink: /software/pfh/
 ---
 
 ![pfh](/assets/programming/pfh.png)
