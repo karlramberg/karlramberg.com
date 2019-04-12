@@ -3,7 +3,7 @@ layout: default
 permalink: /software/pfh/
 ---
 
-![pfh](/assets/programming/pfh.png)
+![pfh](/assets/software/pfh.png)
 
 [Pink Floyd Hourly](https://twitter.com/pinkfloydhourly) is simple, it's a Twitter-bot for tweeting Pink Floyd lyrics every hour, on the hour.
 

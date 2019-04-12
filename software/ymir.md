@@ -3,7 +3,7 @@ layout: default
 permalink: /software/ymir/
 ---
 
-![ymirLogo](/assets/programming/ymirLogo.png)
+![ymirLogo](/assets/software/ymirLogo.png)
 
 Ymir is an experiment in 2d procedural world-generation.
 

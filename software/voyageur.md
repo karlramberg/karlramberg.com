@@ -2,7 +2,7 @@
 layout: default
 permalink: /software/voyageur/
 ---
-![voyageur](/assets/programming/voyageur.jpg)
+![voyageur](/assets/software/voyageur.jpg)
 
 an idea for a programming language currently still at the drawing board
 

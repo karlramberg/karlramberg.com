@@ -4,10 +4,10 @@
 @import "{{ site.theme }}";
 
 .header {
-    font-family: Staatliches, serif;
+    font-family: IBM Plex Sans, serif;
     font-size: 32px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     color: #0048e5;
 }
 
@@ -21,16 +21,16 @@
 }
 
 h2 {
-    font-family: Staatliches, serif;
+    font-family: IBM Plex Sans, serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     color: #202020;
     margin: 10px 0 20px;
 }
 
 p {
-    font-family: IBM Plex Mono, monospace;
+    font-family: IBM Plex Sans, monospace;
     font-size: 14px;
     color: #727272;
 }
