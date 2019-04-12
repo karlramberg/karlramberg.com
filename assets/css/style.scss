@@ -18,6 +18,7 @@
 .header a:hover {
     color: #0048e5;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 h2 {
@@ -30,7 +31,7 @@ h2 {
 }
 
 p {
-    font-family: IBM Plex Sans, monospace;
+    font-family: IBM Plex Mono, monospace;
     font-size: 14px;
     color: #727272;
 }
