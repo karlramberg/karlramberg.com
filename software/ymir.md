@@ -12,12 +12,13 @@ Ymir is an experiment in 2d procedural world-generation.
 
 This project is mostly for me to learn, here some goals of mine...
 - Learn common procedural generation techniques
+- Learn the Go language in and out
+- Learn how to write a basic web application
 - Learn how to manage a larger project
 - Learn how to finish a project
 
 ![earlyMap](/assets/software/map.png)
-
-Above is an early example of world.
+an early example of a world
 
 Some planned features are...
 - Biome, elevation, political, and climate map views
@@ -26,6 +27,6 @@ Some planned features are...
 - Seperate Go package for terrain generation
 - Setting menu so generation can be tweaked
 
-It is all currently a work in progress, but development does happen twice a year or so. Ymir was previously written in Java, but now it uses Go. I switched to Go both to learn the language and get away from Object-Oriented Programing.
+It's all currently a work in progress, but development does happen twice a year or so. Ymir was previously written in Java, but now it uses Go. I switched to Go both to learn the language and get away from Object-Oriented Programing.
 
 Check the [source](https://github.com/karledramberg/ymir) on Github!
