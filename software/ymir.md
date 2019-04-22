@@ -12,6 +12,8 @@ Ymir is an experiment in 2d procedural world-generation.
 
 This project is mostly for me to learn common procedural generation techniques (eg. Perlin noise).
 
+![earlyMap](/assets/software/map.png)
+
 A world is generated upon user request and different view-modes are available for elevation, political boundaries, climate, and biome.
 
 It is all currently a work in progress, but development does happen twice a year or so.
