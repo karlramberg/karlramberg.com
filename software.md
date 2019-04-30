@@ -10,11 +10,6 @@ permalink: /software/
 
 <br>
 
-[![voyageur](/assets/software/voyageur.jpg)](/software/voyageur/)
-[voyageur  &#8674;](/software/voyageur/)
-
-<br>
-
 [![pfh](/assets/software/pfh.png)](/software/pfh/)
 [pink floyd hourly  &#8674;](/software/pfh/)
 
