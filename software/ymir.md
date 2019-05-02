@@ -17,8 +17,9 @@ This project is mostly for me to learn, here some goals of mine...
 - Learn how to manage a larger project
 - Learn how to finish a project
 
-![earlyMap](/assets/software/map.png)
-an early example of a world
+![earlyElevationMap](/assets/software/map.png)
+![earlyTopographicMap](/assets/software/map2.png)
+early examples of worlds (one elevation veiw, one topographic)
 
 Some planned features are...
 - Biome, elevation, political, and climate map views
