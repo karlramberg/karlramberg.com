@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif;
+	line-height: 1.6;
+	margin: 25px auto;
+	max-width: 600px;
+	padding: 20px;
+
+	color: #505050;
+}
+
+h1 {
+	color: #0048e5;
+}
+
+h2 {
+	color: #202020;
+}
+
+h3 {
+	color: #202020;
+}
+
+
+a {
+	color: #0048e5; 
+	text-decoration: none;
+}
+
+img {
+	max-width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+blockquote {
+	font-style: italic;
+}
