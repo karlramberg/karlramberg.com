@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
 body {
-	font-family: sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	line-height: 1.6;
 	margin: 25px auto;
 	max-width: 600px;
@@ -13,12 +15,16 @@ h1 {
 }
 
 h2, h3 {
-	color: #202020;
+	color: #020202;
 }
 
 a {
 	color: #0048e5; 
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 img {
