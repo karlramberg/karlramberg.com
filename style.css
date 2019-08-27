@@ -1,22 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
 	font-family: 'IBM Plex Sans', sans-serif;
-	line-height: 1.6;
-	margin: 25px auto;
-	max-width: 600px;
-	padding: 20px;
-
 	color: #505050;
 }
 
 h1 {
 	color: #0048e5;
-}
-
-h2, h3 {
-	color: #020202;
 }
 
 a {
@@ -28,13 +18,40 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* The sidebar menu */
+.sidebar{
+    line-height: 2.0;
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 275px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding: 20px 20px 10px 50px;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+}
+  
+/* Style page content */
+.main {
+  margin-left: 375px; /* Same as the width of the sidebar */
+  padding: 40px 50px;
+  line-height: 1.6;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar{padding-top: 15px;}
+  .sidebar {font-size: 18px;}
+} 
 img {
-	max-width: 600px;
+	max-width: 800px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 blockquote {
 	font-style: italic;
 }
