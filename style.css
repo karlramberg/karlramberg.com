@@ -22,7 +22,7 @@ a:hover {
 .sidebar{
     line-height: 2.0;
 	height: 100%; /* Full-height: remove this if you want "auto" height */
-	width: 275px; /* Set the width of the sidebar */
+	width: 250px; /* Set the width of the sidebar */
 	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
@@ -36,7 +36,7 @@ a:hover {
   
 /* Style page content */
 .main {
-  margin-left: 375px; /* Same as the width of the sidebar */
+  margin-left: 250px; /* Same as the width of the sidebar */
   padding: 40px 50px;
   line-height: 1.6;
 }
