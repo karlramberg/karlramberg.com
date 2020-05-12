@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css">
+	<title>KR / Ymir</title>
+</head>
+<body>
+	<div class="navbar">
+		<div class="name">
+			<h1 align="left"><em>Karl Ramberg</em></h1>
+		</div>
+		<div class="dropdown">
+			<button class="dropbutton">Photographs &#9663;</button>
+			<div class="dropdown-items">
+				<a href="../photographs/kirksville.html">Kirksville</a>
+				<a href="../photographs/multiplied_night.html">Multiplied Night</a>
+				<a href="../photographs/misc.html">Misc.</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbutton">Software &#9663;</button>
+			<div class="dropdown-items">
+				<a href="ymir.html">Ymir</a>
+				<a href="games.html">Games</a>
+			</div>
+		</div>
+		<a href="../musings.html">Musings</a>
+		<a href="../about.html">About</a>
+  </div>
+ 
+  <img src="ymir/logo.webp" alt="Ymir logo">
+  <p>
+    Ymir is an ongoing project of mine to learn procedural generation techniques through map generation.
+    For now, Ymir isn't finished and probably never will be.
+    It serves it's purpose of providing a platform for experimentation, but there are no plans for it to become a full-blown application.
+    <br>
+    <br>
+    So far I've implemented Perlin and Open Simplex noise and have used Voronoi polygons to simulate continents.
+    <br>
+    <br>
+    Ymir can also interpret the generated world in different ways for different types of maps. For example elevation can be shown with topography or color.
+    <center>Examples of maps using Perlin noise</center>
+  </p>
+  <img src="ymir/map.webp" alt="Elevation map">
+  <br>
+  <img src="ymir/map2.webp" alt="Topographic map">
+  <p>
+    Ymir is current written in Go and previously in Java. I switched languages both to learn Go and move away from OOP - the only programming paradigm I had used so far.
+    <center>Ymir current lives as a web app in the browser.</center>
+  </p>
+  <img src="ymir/screenshot.webp" alt="Screenshot">
+  <p>
+    You can find the <a href="https://github.com/karleramberg/ymir">source</a> on my GitHub page.
+  </p>
+</body>
+</html>
