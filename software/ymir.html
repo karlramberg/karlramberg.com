@@ -9,14 +9,14 @@
 <body>
 	<div class="navbar">
 		<div class="name">
-			<h1 align="left"><em>Karl Ramberg</em></h1>
+			<h1 align="left">Karl Ramberg</h1>
 		</div>
 		<div class="dropdown">
 			<button class="dropbutton">Photographs &#9663;</button>
 			<div class="dropdown-items">
 				<a href="../photographs/kirksville.html">Kirksville</a>
 				<a href="../photographs/multiplied_night.html">Multiplied Night</a>
-				<a href="../photographs/misc.html">Misc.</a>
+				<a href="../photographs/out_west.html">Out West</a>
 			</div>
 		</div>
 		<div class="dropdown">
@@ -32,23 +32,23 @@
  
   <img src="ymir/logo.webp" alt="Ymir logo">
   <p>
-    Ymir is an ongoing project of mine to learn procedural generation techniques through map generation.
-    For now, Ymir isn't finished and probably never will be.
-    It serves it's purpose of providing a platform for experimentation, but there are no plans for it to become a full-blown application.
+	Ymir is an under-development world generator I concieved of in late 2018. Ymir has gone through many iterations and development stages.
+	Currently Ymir creates simple random maps from terrain, but I am working to expand the project to include climate, biomes, and political boundaries.
     <br>
     <br>
-    So far I've implemented Perlin and Open Simplex noise and have used Voronoi polygons to simulate continents.
+	To generate terrain, I use my own implementation of Perlin and Open Simplex noise. I also generate Voronoi polygons to simulate continents - this splits the maps into large polygons and creates smooth noise.
+	In the future I am planning to add plate tectonics simulation.
     <br>
     <br>
-    Ymir can also interpret the generated world in different ways for different types of maps. For example elevation can be shown with topography or color.
+    Here are examples of two elevation maps generated with Perlin noise shown with a color scale and topographic levels.
     <center>Examples of maps using Perlin noise</center>
   </p>
   <img src="ymir/map.webp" alt="Elevation map">
   <br>
   <img src="ymir/map2.webp" alt="Topographic map">
   <p>
-    Ymir is current written in Go and previously in Java. I switched languages both to learn Go and move away from OOP - the only programming paradigm I had used so far.
-    <center>Ymir current lives as a web app in the browser.</center>
+    Ymir is current written in Go and previously in Java. I switched languages both to learn Go and move away from object-oriented programming. In short OOP is the only paradigm I had coded in since learning Java in 2014 and learning a procedural language like Go was very influential in learning how I like to code.
+    <center>A screenshsot of Ymir running in a web browser.</center>
   </p>
   <img src="ymir/screenshot.webp" alt="Screenshot">
   <p>
