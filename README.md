@@ -1,5 +1,4 @@
-## karleramberg.github.io
-## karlramberg.com
+## karleramberg.github.io, karlramberg.com
 
 Simple site to host photographs
 
