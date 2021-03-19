@@ -5,6 +5,10 @@ body {
 	font-family: 'Crimson Text', serif;
 }
 
+h2 {
+	font-weight: 600;
+}
+
 a {
 	color: #222;
 	text-decoration: none;
