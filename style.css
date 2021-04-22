@@ -59,6 +59,8 @@ img {
 	}
 
 	.content {
+		position: absolute;
+		top: 20%;
 		grid-row-start: 2;
 		margin: 0px 50px 0px 50px;
 	}
