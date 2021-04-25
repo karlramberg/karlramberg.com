@@ -3,7 +3,7 @@
 Karl Ramberg is a photographer living in [Kirksville, Missouri](https://goo.gl/maps/Zvr3VWwgkHE4NSM99).
 
 **Contact**<br>
-[kramberg27@gmail.com](mailto:kramberg27@gmail.com)<br>
+[karlramberg@protonmail.com](mailto:karlramberg@protonmail.com)<br>
 [@karleramberg](https://instagram.com/karleramberg)
 
 **Group Exhibitions**<br>
