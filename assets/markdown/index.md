@@ -1,1 +1,1 @@
-![northtown_construction](/assets/images/index.jpg)
+![Index](/assets/images/index.jpg)
