@@ -1,6 +1,6 @@
 ![Instants 01](/assets/images/instants/instants_01.jpg)
 
-<center>Notes made over six months, filled with happy accidents</center>
+<center>A selection of spontaneous notes</center>
 
 ![Instants 02](/assets/images/instants/instants_02.jpg)<br><br>
 ![Instants 03](/assets/images/instants/instants_03.jpg)<br><br>
