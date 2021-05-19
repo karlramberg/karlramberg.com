@@ -1,1 +1,1 @@
-![Index](/assets/images/index.jpg)
+![Index](images/index.jpg)
