@@ -1,6 +1,6 @@
 <img src="images/info.jpg" alt="Profile" style="width: 40%">
 
-Karl Ramberg is a photographer living in [Kirksville, Missouri](https://goo.gl/maps/Zvr3VWwgkHE4NSM99).
+Karl Ramberg is a photographer living in Missouri. 
 
 **Contact**<br>
 [karlramberg@protonmail.com](mailto:karlramberg@protonmail.com)<br>
