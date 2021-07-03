@@ -1,6 +1,6 @@
 ![Several Thousand Hills 01](images/several_thousand_hills/several_thousand_hills_01.jpg)
 
-<center>Photographs made at Thousand Hills State Park in Northeast Missouri</center>
+<center>Pictures made in and near Missouri's Thousand Hills State Park</center>
 
 ![Several Thousand Hills 02](images/several_thousand_hills/several_thousand_hills_02.jpg)<br><br>
 ![Several Thousand Hills 03](images/several_thousand_hills/several_thousand_hills_03.jpg)<br><br>
