@@ -32,20 +32,21 @@ img {
 
 .navigation {
 	position: fixed;
-	margin: 15px 0px 0px 50px;
+	margin: 0px 0px 0px 1%;
 }
+
 .main {
 	display: grid;
 	grid-template-rows: auto;
-	grid-template-columns: 18% auto;
+	grid-template-columns: 20% auto;
 }
 
 .content {
 	grid-column-start: 2;
-	margin: 21px auto 0px 3%;
+	margin: 0px auto 0px 3%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 	.main {
 		grid-template-rows: 20% auto;
 		grid-template-columns: auto;
