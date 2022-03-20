@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css3?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-	font-family: 'Crimson Text', serif;
-	font-size: 14px;
-	line-height: 1.3;
-	margin: 20px 3%;
+	font-family: Rubik, sans-serif;
+	font-size: 13px;
+	line-height: 1.4;
+	margin: 22px 3%;
+	font-variant-numeric: tabular-nums;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 }
 
 a:hover {
-	color: #0048e5;
+	color: #555;
 }
 
 .nav a {
