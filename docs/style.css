@@ -30,3 +30,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+center {
+	margin: 0px 10%;
+	float: left;
+}
