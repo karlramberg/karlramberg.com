@@ -1,5 +1,3 @@
-# https://karlramberg.com
+WIP rework
 
-Webpage to display my pictures and CV
-
-Built using my script, [website_builder](https://github.com/karlramberg/website_builder)
+Built using my [script](https://github.com/karlramberg/website_builder)
