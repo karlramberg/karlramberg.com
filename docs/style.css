@@ -21,7 +21,7 @@ i {
 
 body {
 	font-family: 'Computer Modern';
-	font-size: 12pt;
+	font-size: 16px;
 	margin: 15px 20px 15px 20px;
 }
 
@@ -49,7 +49,7 @@ img {
 
 /* Index table */
 table {
-	font-size: 12pt;
+	font-size: 16px;
 	margin: 0 auto 0 auto;
 }
 .section { text-transform: uppercase;}
@@ -61,7 +61,7 @@ a { text-decoration: none; color: #000; }
 a:hover { text-decoration: underline; }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
 	.content {
 		max-width: 100%;
 		text-align: justify;
