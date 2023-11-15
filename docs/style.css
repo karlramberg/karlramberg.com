@@ -9,6 +9,7 @@
 	font-family: 'Computer Modern Italic';
 	src: url(fonts/computer_modern/cmunti.ttf);
 }
+
 i {
 	font-family: 'Computer Modern Italic';
 	font-style: normal;
@@ -19,51 +20,53 @@ i {
 #header_page { overflow: hidden; text-align: center; }
 #header_index { float: right; width: 157px; text-align: right; }
 
+/* Content text styling */
 body {
 	font-family: 'Computer Modern';
-	font-size: 16px;
+	font-size: 100%;
 	margin: 15px 20px 15px 20px;
 }
 
 .content {
+	margin: 0 auto 0 auto; /* Center content in the main body */
 	max-width: 80%;
-	margin: 0px auto 0px auto;
-	text-align: center;
+	text-align: center; /* Center any random content in the content div */
 }
 
 .content p {
+	font-size: 1em;
+	margin: 0 auto 0 auto; /* Center text in the content div */
+	max-width: 80ch;	   /* Justify text, keep lines 80 characters long */
 	text-align: justify;	
-	max-width: 80ch;
-	padding: 10px 0 10px 0;
-	margin: 0 auto 0 auto;
+	padding: 10px 0 10px 0; /* Add a little space between paragraphs */
 }
 
 /* Images */
 img {
-	padding: 20vh 0 20vh 0;
-	max-width: 100%;
-	max-height: 80vh;
+	/* Size images so they always fit in the content div and on the screen vertically */
+	padding: 20vh 0 20vh 0; 
+	max-height: 80vh; 
+	max-width: 100%; 
 }
 .pushleft { padding-right: 50%; float: left; }
 .pushright { padding-left: 50%; float: right; }
 
 /* Index table */
 table {
-	font-size: inherit;
-	margin: 0 auto 0 auto;
+	font-size: 1em; /* Set table font size, for some reason this doesn't inherit shit */
+	margin: 0 auto 0 auto; /* Center the index table */
 }
 .section { text-transform: uppercase;}
-.entry { padding-right: 5vw; }
+.entry { padding-right: 5vw; }	/* Padding between a table entry and it's description */
 .description { width: 200px; color: gray; }
 
 /* Links */
 a { text-decoration: none; color: #000; }
 a:hover { text-decoration: underline; }
 
-
 @media screen and (max-width: 1000px) {
 	body {
-		font-size: 40px;
+		font-size: 4.5vw;
 		-webkit-text-size-adjust: 100%;
 		-moz-text-size-adjust: 100%;
 	}
@@ -73,9 +76,10 @@ a:hover { text-decoration: underline; }
 	}
 
 	img, .pushleft, .pushright { padding: 5vh 0 5vh 0; }
-	table {margin: 0; width: 100%}
-	.entry {padding-right: 1vw; width: 60%}
+	table { margin: 0; width: 100%; }
+	.entry { padding-right: 1vw; width: 60%; }
 
 	#header_name { width: auto; } 
 	#header_index { width: auto; }
+	#header_page { padding: 0 5px 0 5px }
   }
