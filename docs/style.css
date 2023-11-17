@@ -55,8 +55,9 @@ img {
 table {
 	font-size: 1em; /* Set table font size, for some reason this doesn't inherit shit */
 	margin: 0 auto 0 auto; /* Center the index table */
+	padding-top: 20px;
 }
-.section { text-transform: uppercase;}
+.section { text-transform: uppercase; }
 .entry { padding-right: 5vw; }	/* Padding between a table entry and it's description */
 .description { width: 200px; color: gray; }
 
@@ -77,7 +78,7 @@ a:hover { text-decoration: underline; }
 
 	img, .pushleft, .pushright { padding: 5vh 0 5vh 0; }
 	table { margin: 0; width: 100%; }
-	.entry { padding-right: 1vw; width: 60%; }
+	.entry { padding-right: 3vw; width: 60%; }
 
 	#header_name { width: auto; } 
 	#header_index { width: auto; }
