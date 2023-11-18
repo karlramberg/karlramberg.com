@@ -55,10 +55,11 @@ img {
 table {
 	font-size: 1em; /* Set table font size, for some reason this doesn't inherit shit */
 	margin: 0 auto 0 auto; /* Center the index table */
-	padding-top: 20px;
+	padding: 20px 0px 20px 0px;
 }
 .section { text-transform: uppercase; }
 .entry { padding-right: 5vw; }	/* Padding between a table entry and it's description */
+.term { padding-right: 2vw; text-align: right; }
 .description { width: 200px; color: gray; }
 
 /* Links */
@@ -76,9 +77,10 @@ a:hover { text-decoration: underline; }
 		text-align: justify;
 	}
 
-	img, .pushleft, .pushright { padding: 5vh 0 5vh 0; }
+	img, .pushleft, .pushright { padding: 10vh 0 10vh 0; }
 	table { margin: 0; width: 100%; }
 	.entry { padding-right: 3vw; width: 60%; }
+	.term { vertical-align: top; }
 
 	#header_name { width: auto; } 
 	#header_index { width: auto; }
