@@ -57,7 +57,7 @@ table {
 
 	/* Center the index table, give it a lil space */
 	margin: 0 auto; 
-	padding: 20px 0px;
+	padding: 3vh 0;
 }
 
 /* Images --------------------------------------------------------------------------------------- */
@@ -85,9 +85,10 @@ img {
 .term { padding-right: 2vw; text-align: right; }
 /* Fade date for news entries */
 .date { color: gray; display: inline;}
-/* Links are mostly hidden except when hovered over */
+/* Links are hidden by default, except when hovered over or in a paragraph */
 a { text-decoration: none; color: #000; }
 a:hover { text-decoration: underline; }
+p > a { text-decoration: underline; }
 
 /* Rules for narrow screens --------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
