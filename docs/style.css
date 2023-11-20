@@ -1,88 +1,122 @@
+/*
+	Karl Ramberg
+	karlramberg.com
+	github.com/karlramberg/karlramberg.com
+*/
+
+/* Fonts ---------------------------------------------------------------------------------------- */
 /* Default font */
 @font-face {
 	font-family: 'Computer Modern';
 	src: url(fonts/computer_modern/cmunrm.ttf);
 }
+body { font: 100% 'Computer Modern'; }
 
 /* Italic font */
 @font-face {
 	font-family: 'Computer Modern Italic';
 	src: url(fonts/computer_modern/cmunti.ttf);
 }
+i { font: 100% 'Computer Modern Italic'; }
 
-i {
-	font-family: 'Computer Modern Italic';
-	font-style: normal;
-}
-
-/* Header */
+/* Header --------------------------------------------------------------------------------------- */
 #header_name { float: left; width: 157px; } 
 #header_page { overflow: hidden; text-align: center; }
 #header_index { float: right; width: 157px; text-align: right; }
 
-/* Content text styling */
+/* Text and body  styling ----------------------------------------------------------------------- */
 body {
-	font-family: 'Computer Modern';
-	font-size: 100%;
-	margin: 15px 20px 15px 20px;
+	margin: 15px 20px
 }
 
 .content {
-	margin: 0 auto 0 auto; /* Center content in the main body */
+	/* Center content in the main body */
+	margin: 0 auto 0 auto; 
 	max-width: 80%;
-	text-align: center; /* Center any random content in the content div */
+
+	/* Center any random content in the content div, I'm not sure why this affects things other
+	   than text but it does.  */
+	text-align: center; 
 }
 
 .content p {
-	font-size: 1em;
-	margin: 0 auto 0 auto; /* Center text in the content div */
-	max-width: 80ch;	   /* Justify text, keep lines 80 characters long */
+	/* Center text in the content div */
+	margin: 0 auto 0 auto; 
+
+	/* Justify text, keep lines 80 characters long */
+	max-width: 80ch;	   
 	text-align: justify;	
-	padding: 10px 0 10px 0; /* Add a little space between paragraphs */
+
+	/* Add a little space between paragraphs */
+	padding: 1vh 0; 
 }
 
-/* Images */
+table {
+	/* Set table font size, for some reason this doesn't inherit shit */
+	font-size: 100%; 
+
+	/* Center the index table, give it a lil space */
+	margin: 0 auto; 
+	padding: 20px 0px;
+}
+
+/* Images --------------------------------------------------------------------------------------- */
+/* Size images so they always fit in the content div and on the screen vertically */
 img {
-	/* Size images so they always fit in the content div and on the screen vertically */
-	padding: 20vh 0 20vh 0; 
+	padding: 20vh 0; 
 	max-height: 80vh; 
 	max-width: 100%; 
 }
+/* Add padding to the right to push the image to the left edge */
 .pushleft { padding-right: 50%; float: left; }
+/* Add padding to the left to push the image to the right edge */
 .pushright { padding-left: 50%; float: right; }
+/* Shrink and use smaller padding the header image on the "News & bio" page */
+#newsheader { padding: 5vh 0; width: 50%;}
 
-/* Index table */
-table {
-	font-size: 1em; /* Set table font size, for some reason this doesn't inherit shit */
-	margin: 0 auto 0 auto; /* Center the index table */
-	padding: 20px 0px 20px 0px;
-}
+/* Text ----------------------------------------------------------------------------------------- */
+/* Index table section headers are uppercase */
 .section { text-transform: uppercase; }
-.entry { padding-right: 5vw; }	/* Padding between a table entry and it's description */
-.term { padding-right: 2vw; text-align: right; }
+/* Padding between a index entry and it's description */
+.entry { padding-right: 5vw; }	
+/* Fade descriptions in the index table */
 .description { width: 200px; color: gray; }
-
-/* Links */
+/* Alignment and padding for nemo definitions */
+.term { padding-right: 2vw; text-align: right; }
+/* Fade date for news entries */
+.date { color: gray; display: inline;}
+/* Links are mostly hidden except when hovered over */
 a { text-decoration: none; color: #000; }
 a:hover { text-decoration: underline; }
 
+/* Rules for narrow screens --------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
+	/* Make the font size bigger and normalized for moblie */
 	body {
 		font-size: 4.5vw;
 		-webkit-text-size-adjust: 100%;
 		-moz-text-size-adjust: 100%;
 	}
+	
+	/* Exapnd to both edges of the frame */
 	.content {
 		max-width: 100%;
 		text-align: justify;
 	}
 
+	/* Shrink the default image padding */
 	img, .pushleft, .pushright { padding: 10vh 0 10vh 0; }
+
+	/* Expand the news page header */
+	#newsheader { width: 100% }
+
+	/* Shrink some paddings for table elements */
 	table { margin: 0; width: 100%; }
-	.entry { padding-right: 3vw; width: 60%; }
+	.entry { padding-right: 3vw; width: 60%; vertical-align: top;} 
 	.term { vertical-align: top; }
 
+	/* Page title is no longer strictly centered */
 	#header_name { width: auto; } 
 	#header_index { width: auto; }
 	#header_page { padding: 0 5px 0 5px }
-  }
+}
