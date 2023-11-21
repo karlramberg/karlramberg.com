@@ -4,6 +4,10 @@
 	github.com/karlramberg/karlramberg.com
 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Fonts ---------------------------------------------------------------------------------------- */
 /* Default font */
 @font-face {
@@ -86,9 +90,14 @@ img {
 /* Fade date for news entries */
 .date { color: gray; display: inline;}
 /* Links are hidden by default, except when hovered over or in a paragraph */
-a { text-decoration: none; color: #000; }
-a:hover { text-decoration: underline; }
-p > a { text-decoration: underline; }
+a {
+	color: black;
+	text-decoration: underline gray;
+}
+a:hover {
+	text-decoration: underline black;
+	text-decoration-skip-ink: none;
+}
 
 /* Rules for narrow screens --------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
