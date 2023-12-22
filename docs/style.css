@@ -99,6 +99,8 @@ a:hover {
 	text-decoration-skip-ink: none;
 }
 
+
+
 /* Rules for narrow screens --------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
 	/* Make the font size bigger and normalized for moblie */
