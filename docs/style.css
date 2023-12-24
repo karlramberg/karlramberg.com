@@ -76,15 +76,15 @@ img {
 /* Add padding to the left to push the image to the right edge */
 .pushright { padding-left: 50%; float: right; }
 /* Shrink and use smaller padding the header image on the "News & bio" page */
-#newsheader { padding: 5vh 0; width: 50%;}
+#newsheader { padding: 6vh 0; width: 50%;}
 
 /* Text ----------------------------------------------------------------------------------------- */
 /* Index table section headers are uppercase */
 .section { text-transform: uppercase; }
 /* Padding between a index entry and it's description */
-.entry { padding-right: 5vw; }	
+.entry { padding-right: 5vw; text-align: left; }	
 /* Fade descriptions in the index table */
-.description { width: 200px; color: gray; }
+.description { width: 200px; color: gray; text-align: left; }
 /* Alignment and padding for nemo definitions */
 .term { padding-right: 2vw; text-align: right; }
 /* Fade date for news entries */
