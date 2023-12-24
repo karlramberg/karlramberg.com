@@ -64,31 +64,43 @@ table {
 	padding: 3vh 0;
 }
 
+td { text-align: left; }
+
 /* Images --------------------------------------------------------------------------------------- */
+
 /* Size images so they always fit in the content div and on the screen vertically */
 img {
 	padding: 20vh 0; 
 	max-height: 80vh; 
 	max-width: 100%; 
 }
+
 /* Add padding to the right to push the image to the left edge */
 .pushleft { padding-right: 50%; float: left; }
+
 /* Add padding to the left to push the image to the right edge */
 .pushright { padding-left: 50%; float: right; }
+
 /* Shrink and use smaller padding the header image on the "News & bio" page */
 #newsheader { padding: 6vh 0; width: 50%;}
 
 /* Text ----------------------------------------------------------------------------------------- */
+
 /* Index table section headers are uppercase */
 .section { text-transform: uppercase; }
+
 /* Padding between a index entry and it's description */
-.entry { padding-right: 5vw; text-align: left; }	
+.entry { padding-right: 5vw; }	
+
 /* Fade descriptions in the index table */
-.description { width: 200px; color: gray; text-align: left; }
+.description { width: 200px; color: gray; }
+
 /* Alignment and padding for nemo definitions */
 .term { padding-right: 2vw; text-align: right; }
+
 /* Fade date for news entries */
 .date { color: gray; display: inline;}
+
 /* Links are hidden by default, except when hovered over or in a paragraph */
 a {
 	color: black;
@@ -99,10 +111,10 @@ a:hover {
 	text-decoration-skip-ink: none;
 }
 
-
-
 /* Rules for narrow screens --------------------------------------------------------------------- */
+
 @media screen and (max-width: 1000px) {
+	
 	/* Make the font size bigger and normalized for moblie */
 	body {
 		font-size: 4.5vw;
