@@ -1,9 +1,3 @@
-/*
-	Karl Ramberg
-	karlramberg.com
-	github.com/karlramberg/karlramberg.com
-*/
-
 html {
 	scroll-behavior: smooth;
 }
@@ -30,7 +24,7 @@ i { font: 100% 'Computer Modern Italic'; }
 
 /* Text and body  styling ----------------------------------------------------------------------- */
 body {
-	margin: 15px 20px
+	margin: 2vh 4vw; 
 }
 
 .content {
