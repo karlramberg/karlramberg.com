@@ -3,34 +3,50 @@ html {
 }
 
 /* Fonts ---------------------------------------------------------------------------------------- */
-/* Default font */
 @font-face {
 	font-family: 'Computer Modern';
 	src: url(fonts/computer_modern/cmunrm.ttf);
 }
 body { font: 100% 'Computer Modern'; }
 
-/* Italic font */
 @font-face {
 	font-family: 'Computer Modern Italic';
 	src: url(fonts/computer_modern/cmunti.ttf);
 }
 i { font: 100% 'Computer Modern Italic'; }
 
+body {
+	max-width: 80%;
+	margin: 30px auto 100px auto;
+}
+
 /* Header --------------------------------------------------------------------------------------- */
-#header_name { float: left; width: 157px; } 
-#header_page { overflow: hidden; text-align: center; }
-#header_index { float: right; width: 157px; text-align: right; }
+#name {
+	float: left;
+	text-align: left;
+	width: 100px;
+} 
+
+#name > a {
+	text-decoration: none;
+}
+
+#title {
+	overflow: hidden;
+	text-align: center;
+}
+
+#index {
+	float: right;
+	text-align: right;
+	width: 100px;
+}
 
 /* Text and body  styling ----------------------------------------------------------------------- */
-body {
-	margin: 2vh 4vw; 
-}
 
 .content {
 	/* Center content in the main body */
-	margin: 0 auto 0 auto; 
-	max-width: 80%;
+	margin: 0px auto; 
 
 	/* Center any random content in the content div, I'm not sure why this affects things other
 	   than text but it does.  */
@@ -39,7 +55,7 @@ body {
 
 .content p {
 	/* Center text in the content div */
-	margin: 0 auto 0 auto; 
+	margin: 0px auto; 
 
 	/* Justify text, keep lines 80 characters long */
 	max-width: 80ch;	   
@@ -54,7 +70,7 @@ table {
 	font-size: 100%; 
 
 	/* Center the index table, give it a lil space */
-	margin: 0 auto; 
+	margin: 0px auto; 
 	padding: 3vh 0;
 }
 
@@ -87,23 +103,17 @@ img {
 .entry { padding-right: 5vw; }	
 
 /* Fade descriptions in the index table */
-.description { width: 200px; color: gray; }
+.description { text-align: right; color: gray; }
 
 /* Alignment and padding for nemo definitions */
 .term { padding-right: 2vw; text-align: right; }
 
 /* Fade date for news entries */
-.date { color: gray; display: inline;}
+.date { color: gray; }
 
-/* Links are hidden by default, except when hovered over or in a paragraph */
-a {
-	color: black;
-	text-decoration: underline gray;
-}
-a:hover {
-	text-decoration: underline black;
-	text-decoration-skip-ink: none;
-}
+/* Links */
+a { color: black; }
+a:hover { color: gray; }
 
 /* Rules for narrow screens --------------------------------------------------------------------- */
 
@@ -111,15 +121,11 @@ a:hover {
 	
 	/* Make the font size bigger and normalized for moblie */
 	body {
+		max-width: 100%;
+		margin: 10px;
 		font-size: 4.5vw;
 		-webkit-text-size-adjust: 100%;
 		-moz-text-size-adjust: 100%;
-	}
-	
-	/* Exapnd to both edges of the frame */
-	.content {
-		max-width: 100%;
-		text-align: justify;
 	}
 
 	/* Shrink the default image padding */
@@ -134,7 +140,15 @@ a:hover {
 	.term { vertical-align: top; }
 
 	/* Page title is no longer strictly centered */
-	#header_name { width: auto; } 
-	#header_index { width: auto; }
-	#header_page { padding: 0 5px 0 5px }
+	#name {
+		width: auto;
+	} 
+	
+	#index {
+		width: auto;
+	}
+
+	#title {
+		padding: 0 5px 0 5px;
+	}
 }
