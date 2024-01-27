@@ -49,7 +49,7 @@ body {
 	margin: 0px auto; 
 
 	/* Center any random content in the content div, I'm not sure why this affects things other
-	   than text but it does.  */
+	   than text but it does. */
 	text-align: center; 
 }
 
@@ -86,18 +86,24 @@ img {
 }
 
 /* Add padding to the right to push the image to the left edge */
-.pushleft { padding-right: 50%; float: left; }
+.pushleft {
+	padding-right: 50%;
+	float: left;
+}
 
 /* Add padding to the left to push the image to the right edge */
-.pushright { padding-left: 50%; float: right; }
+.pushright {
+	padding-left: 50%;
+	float: right;
+}
 
 /* Shrink and use smaller padding the header image on the "News & bio" page */
-#newsheader { padding: 6vh 0; width: 50%;}
+#indeximage {
+	padding: 6vh 0;
+	width: 50%;
+}
 
 /* Text ----------------------------------------------------------------------------------------- */
-
-/* Index table section headers are uppercase */
-.section { text-transform: uppercase; }
 
 /* Padding between a index entry and it's description */
 .entry { padding-right: 5vw; }	
