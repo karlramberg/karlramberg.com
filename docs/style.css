@@ -1,160 +1,132 @@
+@font-face {
+	font-family: 'Computer Modern';
+	src: url(fonts/computer-modern-serif.ttf);
+}
+
+@font-face {
+	font-family: 'Computer Modern Italic';
+	src: url(fonts/computer-modern-italic.ttf);
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
-/* Fonts ---------------------------------------------------------------------------------------- */
-@font-face {
-	font-family: 'Computer Modern';
-	src: url(fonts/computer_modern/cmunrm.ttf);
-}
-body { font: 100% 'Computer Modern'; }
-
-@font-face {
-	font-family: 'Computer Modern Italic';
-	src: url(fonts/computer_modern/cmunti.ttf);
-}
-i { font: 100% 'Computer Modern Italic'; }
-
 body {
-	max-width: 80%;
-	margin: 30px auto 100px auto;
+	font-family: 'Computer Modern', serif;
+	font-size: 16px;
+	line-height: 1.4;
+	margin: 2% 10% 6% 10%;
 }
 
-/* Header --------------------------------------------------------------------------------------- */
+header {
+	margin: 16px auto;
+}
+
+i {
+	font-family: 'Computer Modern Italic', serif;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	text-decoration-color: #bbb;
+}
+
+a:hover {
+	text-decoration-color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+	max-width: 80ch;
+	margin: 16px auto;
+}
+
+.right {
+	float: right;
+}
+
+.gray {
+	color: gray;
+}
+
 #name {
 	float: left;
-	text-align: left;
 	width: 100px;
-} 
+}
 
-#name > a {
+#name a {
 	text-decoration: none;
 }
 
 #title {
-	overflow: hidden;
 	text-align: center;
 }
 
-#index {
-	float: right;
+#menu {
 	text-align: right;
+	float: right;
 	width: 100px;
 }
 
-/* Text and body  styling ----------------------------------------------------------------------- */
-
-.content {
-	/* Center content in the main body */
-	margin: 0px auto; 
-
-	/* Center any random content in the content div, I'm not sure why this affects things other
-	   than text but it does. */
-	text-align: center; 
+#menup {
+	max-width: 40ch;
+	margin: 16px auto;
+	padding-top: 10%;
 }
 
-.content p {
-	/* Center text in the content div */
-	margin: 0px auto; 
-
-	/* Justify text, keep lines 80 characters long */
-	max-width: 80ch;	   
-	text-align: justify;	
-
-	/* Add a little space between paragraphs */
-	padding: 1vh 0; 
+.photograph {
+	display: block;
+	margin: 16px auto;
 }
 
-table {
-	/* Set table font size, for some reason this doesn't inherit shit */
-	font-size: 100%; 
-
-	/* Center the index table, give it a lil space */
-	margin: 0px auto; 
-	padding: 3vh 0;
+.large {
+	padding: 20vh 0;
+	max-width: 100%;
+	max-height: 80vh;
 }
 
-td { text-align: left; }
-
-/* Images --------------------------------------------------------------------------------------- */
-
-/* Size images so they always fit in the content div and on the screen vertically */
-img {
-	padding: 20vh 0; 
-	max-height: 80vh; 
-	max-width: 100%; 
+.small {
+	padding: 2% 0 2% 0;
+	width: 80ch;
+	max-width: 100%;
 }
 
-/* Add padding to the right to push the image to the left edge */
-.pushleft {
-	padding-right: 50%;
-	float: left;
-}
-
-/* Add padding to the left to push the image to the right edge */
-.pushright {
+.imgright {
 	padding-left: 50%;
 	float: right;
 }
 
-/* Shrink and use smaller padding the header image on the "News & bio" page */
-#indeximage {
-	padding: 6vh 0;
-	width: 50%;
+.imgleft {
+	padding-right: 50%;
+	float: right;
 }
 
-/* Text ----------------------------------------------------------------------------------------- */
-
-/* Padding between a index entry and it's description */
-.entry { padding-right: 5vw; }	
-
-/* Fade descriptions in the index table */
-.description { text-align: right; color: gray; }
-
-/* Alignment and padding for nemo definitions */
-.term { padding-right: 2vw; text-align: right; }
-
-/* Fade date for news entries */
-.date { color: gray; }
-
-/* Links */
-a { color: black; }
-a:hover { color: gray; }
-
-/* Rules for narrow screens --------------------------------------------------------------------- */
-
 @media screen and (max-width: 1000px) {
-	
-	/* Make the font size bigger and normalized for moblie */
 	body {
-		max-width: 100%;
-		margin: 10px;
-		font-size: 4.5vw;
-		-webkit-text-size-adjust: 100%;
-		-moz-text-size-adjust: 100%;
+		margin: 2% 3%;
+		font-size: 20px;
 	}
 
-	/* Shrink the default image padding */
-	img, .pushleft, .pushright { padding: 10vh 0 10vh 0; }
-
-	/* Expand the news page header */
-	#newsheader { width: 100% }
-
-	/* Shrink some paddings for table elements */
-	table { margin: 0; width: 100%; }
-	.entry { padding-right: 3vw; width: 60%; vertical-align: top;} 
-	.term { vertical-align: top; }
-
-	/* Page title is no longer strictly centered */
-	#name {
-		width: auto;
-	} 
-	
-	#index {
+	#name, #menu {
 		width: auto;
 	}
 
 	#title {
-		padding: 0 5px 0 5px;
+		padding: 0 5px;
+	}
+
+	.photograph {
+		padding: 10vh 0;
+	}
+
+	#menup {
+		max-width: 100%;
 	}
 }
