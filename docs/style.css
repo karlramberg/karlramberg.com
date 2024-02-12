@@ -8,17 +8,41 @@
 	src: url(fonts/computer-modern-italic.ttf);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Computer Modern', serif;
 	font-size: 16px;
 	line-height: 1.5;
-	margin: 2% 10% 6% 10%;
+	margin: 2% 5% 6% 5%;
 	hyphens: auto;
 }
 
 header {
 	margin: 16px auto;
+}
+
+#name {
+	float: left;
+	width: 120px;
+}
+
+#name > a {
+	text-decoration: none;
+}
+
+#title {
 	text-align: center;
+	margin: auto;
+}
+
+#index {
+	display: inline;
+	float: right;
+	text-align: right;
+	width: 120px;
 }
 
 i, em {
@@ -38,16 +62,26 @@ a:hover {
 }
 
 p.center {
+	margin: 16px auto;
 	text-align: center;
 }
 
 p.justify {
+	hyphens: auto;
 	text-align: justify;
 	margin: 16px auto;
 }
 
-p.sixty {
+p.narrow {
+	max-width: 40ch;
+}
+
+p.normal {
 	max-width: 60ch;
+}
+
+p.wide {
+	max-width: 80ch;
 }
 
 span.right {
@@ -73,9 +107,10 @@ img.photograph {
 	margin: 16px auto;
 }
 
-img.profile {
-	width: 200px;
-	padding: 8% 0 2% 0;
+img.small {
+	width: 80ch;
+	max-width: 100%;
+	padding: 5vh 0;
 }
 
 img.large {
@@ -97,6 +132,11 @@ img.left {
 @media screen and (max-width: 1000px) {
 	body {
 		margin: 2% 3% 20% 3%;
+		font-size: 20px;
+	}
+
+	#name, #index {
+		width: auto;
 	}
 
 	img.large {
