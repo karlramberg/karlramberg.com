@@ -84,6 +84,14 @@ p.wide {
 	max-width: 80ch;
 }
 
+.heading {
+	text-align: center;
+	text-transform: uppercase;
+	color: gray;
+	font-size: smaller;
+	margin-bottom: -16px;
+}
+
 span.right {
 	float: right;
 }
