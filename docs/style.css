@@ -14,7 +14,7 @@ html {
 
 body {
 	font-family: 'Computer Modern', serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.5;
 	margin: 2% 5% 6% 5%;
 	hyphens: auto;
@@ -26,7 +26,7 @@ header {
 
 #name {
 	float: left;
-	width: 120px;
+	width: 125px;
 }
 
 #name > a {
@@ -38,11 +38,11 @@ header {
 	margin: auto;
 }
 
-#index {
+#menu {
 	display: inline;
 	float: right;
 	text-align: right;
-	width: 120px;
+	width: 125px;
 }
 
 i, em {
@@ -57,9 +57,7 @@ a {
 	text-decoration-color: #bbb;
 }
 
-a:hover {
-	text-decoration-color: black;
-}
+a:hover { text-decoration-color: black; }
 
 p.center {
 	margin: 16px auto;
@@ -67,36 +65,19 @@ p.center {
 }
 
 p.justify {
-	hyphens: auto;
 	text-align: justify;
+	hyphens: auto;
 	margin: 16px auto;
-}
-
-p.narrow {
-	max-width: 40ch;
-}
-
-p.normal {
-	max-width: 60ch;
-}
-
-p.wide {
 	max-width: 80ch;
 }
 
-.heading {
-	text-align: center;
+.first {
+	padding-top: 200px;
+}
+
+.meta {
 	text-transform: uppercase;
-	color: gray;
 	font-size: smaller;
-	margin-bottom: -16px;
-}
-
-span.right {
-	float: right;
-}
-
-span.gray {
 	color: gray;
 }
 
@@ -115,7 +96,7 @@ img.photograph {
 	margin: 16px auto;
 }
 
-img.small {
+img.inline {
 	width: 80ch;
 	max-width: 100%;
 	padding: 5vh 0;
