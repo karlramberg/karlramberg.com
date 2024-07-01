@@ -8,21 +8,16 @@
 	src: url(fonts/computer-modern-italic.ttf);
 }
 
-html {
-	scroll-behavior: smooth;
-}
+html {	scroll-behavior: smooth; }
 
 body {
 	font-family: 'Computer Modern', serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5;
 	margin: 2% 5% 6% 5%;
-	hyphens: auto;
 }
 
-header {
-	margin: 16px auto;
-}
+header { margin: 16px auto; }
 
 #name {
 	float: left;
@@ -54,6 +49,7 @@ a {
 	color: black;
 	text-decoration: underline;
 	text-underline-offset: 2px;
+	text-decoration-thickness: 1px;
 	text-decoration-color: #bbb;
 }
 
@@ -91,7 +87,7 @@ hr::before {
 	text-align: center;
 }
 
-img.photograph {
+img {
 	display: block;
 	margin: 16px auto;
 }
@@ -121,10 +117,9 @@ img.left {
 @media screen and (max-width: 1000px) {
 	body {
 		margin: 2% 3% 20% 3%;
-		font-size: 20px;
 	}
 
-	#name, #index {
+	#name, #menu {
 		width: auto;
 	}
 
