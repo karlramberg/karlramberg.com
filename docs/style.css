@@ -4,8 +4,9 @@
 }
 
 @font-face {
-	font-family: 'Computer Modern Italic';
+	font-family: 'Computer Modern';
 	src: url(fonts/computer-modern-italic.ttf);
+	font-style: italic;
 }
 
 html {	scroll-behavior: smooth; }
@@ -38,11 +39,6 @@ header { margin: 16px auto; }
 	float: right;
 	text-align: right;
 	width: 125px;
-}
-
-i, em {
-	font-family: 'Computer Modern Italic', serif;
-	font-style: normal;
 }
 
 a {
