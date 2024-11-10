@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-serif.ttf);
+	src: url(fonts/computer-modern-serif.ttf)
 }
 
 @font-face {
@@ -9,36 +9,39 @@
 	font-style: italic;
 }
 
+@font-face {
+	font-family: 'Computer Modern';
+	src: url(fonts/computer-modern-bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Computer Modern';
+	src: url(fonts/computer-modern-bolditalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
 body {
-	font-family: 'Computer Modern', serif;
-	font-size: 20px;
+	font-family: 'Computer Modern', serif;	
 	line-height: 1.5;
+
 	margin: 40px 80px; 
 }
 
 #name {
 	float: left;
-	width: 13ch;
-}
-
-#name > a {
-	text-decoration: none;
-}
-
-#title {
-	text-align: center;
-	margin: auto;
+	display: inline;
 }
 
 #menu {
 	display: inline;
 	float: right;
 	text-align: right;
-	width: 13ch;
 }
 
 a {
@@ -54,19 +57,29 @@ a:hover {
 }
 
 p.center {
-	margin: 1em auto;
 	text-align: center;
 }
 
-p.justify {
-	text-align: justify;
-	hyphens: auto;
+p {
 	margin: 1em auto;
-	max-width: 80ch;
+	max-width: 55ch;
 }
 
-.first {
-	padding-top: 20vh;
+.info>p {
+	text-align: justify;
+	max-width: 90ch;
+}
+
+.date {
+	font-weight: bold;
+}
+
+blockquote {
+	max-width: 52.5ch;
+	margin: 1em auto;
+	padding-left: 2ch;
+	border-left: 1px solid #ddd;
+	/* text-align: justify; */
 }
 
 .meta {
@@ -75,16 +88,14 @@ p.justify {
 	color: gray;
 }
 
+.content {
+	padding: 20vh 0vh 10ch 0vh;
+}
 
 /* Horizontal rule */
 hr {
 	border: none;
-}
-
-hr::before {
-	content: '*';
-	display: block;
-	text-align: center;
+	padding: 20vh 0;
 }
 
 /* Images */
@@ -95,8 +106,8 @@ img {
 
 img.inline {
 	max-width: 100%;
-	width: 80ch;
-	padding: 5vh 0;
+	width: 55ch;
+	padding: 1em 0;
 }
 
 img.gallery {
