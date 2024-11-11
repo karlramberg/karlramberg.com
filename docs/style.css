@@ -85,7 +85,7 @@ blockquote {
 .meta {
 	text-transform: uppercase;
 	font-size: smaller;
-	color: gray;
+	font-weight: 600;
 }
 
 .content {
