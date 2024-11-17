@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-serif.ttf)
+	src: url(fonts/computer-modern-serif.woff)
 }
 
 @font-face {
 	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-italic.ttf);
+	src: url(fonts/computer-modern-italic.woff);
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-bold.ttf);
+	src: url(fonts/computer-modern-bold.woff);
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-bolditalic.ttf);
+	src: url(fonts/computer-modern-bolditalic.woff);
 	font-weight: bold;
 	font-style: italic;
 }
@@ -66,12 +66,15 @@ p {
 }
 
 .info>p {
-	text-align: justify;
 	max-width: 90ch;
 }
 
-.date {
-	font-weight: bold;
+.post {
+	padding-bottom: 20vh;
+}
+
+.post>p {
+	max-width: 45ch;
 }
 
 blockquote {
@@ -106,7 +109,7 @@ img {
 
 img.inline {
 	max-width: 100%;
-	width: 55ch;
+	width: 45ch;
 	padding: 1em 0;
 }
 
