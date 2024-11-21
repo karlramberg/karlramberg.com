@@ -58,10 +58,10 @@ a:hover {
 
 p.center {
 	text-align: center;
+	margin: 1em auto;
 }
 
 p {
-	margin: 1em auto;
 	max-width: 55ch;
 }
 
@@ -92,14 +92,9 @@ blockquote {
 }
 
 .content {
-	padding: 20vh 0vh 10ch 0vh;
+	padding: 10vh 0vh 10ch 0vh;
 }
 
-/* Horizontal rule */
-hr {
-	border: none;
-	padding: 20vh 0;
-}
 
 /* Images */
 img {
