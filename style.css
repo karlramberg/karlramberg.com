@@ -1,0 +1,45 @@
+
+@font-face {
+	font-family: 'Computer Modern';
+	src: url(computer-modern.woff);
+}
+
+body {
+	margin: 40px 80px;
+	font-family: 'Computer Modern';
+	font-size: 16px;
+}
+
+p {
+	color: gray;
+}
+
+b {
+	color: black;
+	font-weight: normal;
+}
+
+img {
+	width: 500px;
+	max-width: 100%;
+	margin: 1em 0;
+}
+
+.spacer {
+	height: 10vh;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	&:hover {
+		color: black;
+		text-decoration: underline;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		margin: 1em;
+	}	
+}
