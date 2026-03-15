@@ -1,3 +1,4 @@
+/* Font */
 @font-face {
 	font-family: 'Computer Modern';
 	src: url(fonts/computer-modern-serif.woff)
@@ -15,6 +16,7 @@
 	font-weight: bold;
 }
 
+/* Layout */
 html {
 	scroll-behavior: smooth;
 }
@@ -28,7 +30,7 @@ body {
 
 #name {
 	float: left;
-	width: 125px;
+	width: 135px;
 }
 
 #title {
@@ -39,9 +41,14 @@ body {
 #menu {
 	float: right;
 	text-align: right;
-	width: 125px;
+	width: 135px;
 }
 
+#content {
+	padding: 10vh 0vh;
+}
+
+/* Text */
 a {
 	color: black;
 	text-decoration: none;
@@ -66,8 +73,31 @@ p.info {
 	margin: 1em auto;
 }
 
-#content {
-	padding: 10vh 0vh;
+p.blog {
+	max-width: 81ch;
+	text-align: justify;
+	margin: 1em auto;
+}
+
+blockquote {
+	text-align: justify;
+	margin: 1em auto;
+	max-width: 79ch;
+	border-left: 1px #bbb solid;
+	padding-left: 2ch;
+}
+
+
+/* Horizontal rule */
+hr {
+	border: none;
+	padding: 3em;
+}
+
+hr::before {
+	content: '*';
+	display: block;
+	text-align: center;
 }
 
 /* Images */
@@ -92,6 +122,7 @@ img.landing {
 	padding: 2vh 0;
 }
 
+/* Mobile */
 @media screen and (max-width: 1000px) {
 	body {
 		margin: 1em; 
