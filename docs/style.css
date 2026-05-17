@@ -30,7 +30,7 @@ body {
 
 #name {
 	float: left;
-	width: 135px;
+	width: 161px;
 }
 
 #title {
@@ -41,7 +41,7 @@ body {
 #menu {
 	float: right;
 	text-align: right;
-	width: 135px;
+	width: 161px;
 }
 
 #content {
@@ -62,33 +62,26 @@ a:hover {
 	text-decoration-color: black;
 }
 
-b {
-	font-weight: normal;
-	font-size: small;
-	text-transform: uppercase;
-}
-
 p.center {
 	text-align: center;
 	max-width: 50ch;
 	margin: 1em auto;
 }
 
-p.info {
-	max-width: 93ch;
-	margin: 1em auto;
+div.post {
+	max-width: 70ch;
+	text-align: justify;
+	margin: 20vh auto;
 }
 
-p.blog {
-	max-width: 81ch;
-	text-align: justify;
-	margin: 1em auto;
+p.date {
+	font-weight: bold;
 }
 
 blockquote {
 	text-align: justify;
 	margin: 1em auto;
-	max-width: 79ch;
+	max-width: 68ch;
 	border-left: 1px #bbb solid;
 	padding-left: 2ch;
 }
