@@ -71,7 +71,7 @@ p.center {
 div.post {
 	max-width: 70ch;
 	text-align: justify;
-	margin: 20vh auto;
+	margin: 0 auto; 
 }
 
 p.date {
