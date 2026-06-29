@@ -22,112 +22,112 @@ html {
 }
 
 body {
-	font-family: 'Computer Modern';
+	font-family: 'Computer Modern', serif;
 	line-height: 1.5;
 	font-size: 16px;
-	margin: 20px 30px; 
+	margin: 20px 30px 10vh 20px;
 }
 
 #name {
 	float: left;
-	width: 161px;
-}
-
-#title {
-	text-align: center;
-	margin: auto;
+	width: 135px;
 }
 
 #menu {
 	float: right;
 	text-align: right;
-	width: 161px;
+	width: 135px;
 }
 
 #content {
 	padding: 10vh 0vh;
 }
 
+.wrapper {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) min(80ch, 100%) minmax(0, 1fr);
+}
+
+.wrapper > * {
+	grid-column: 2;
+}
+
+.wrapper > p:has(img) {
+	grid-column: 1 / -1; 
+}
+
+.wrapper > p:has(img.left) {
+	justify-self: left;
+	padding-left: 5vw;
+}
+
+.wrapper > p:has(img.right) {
+	justify-self: right;
+	padding-right: 5vw;
+}
+
+.wrapper p img {
+	width: 100%;
+	max-height: 80vh;
+	padding: 20vh 0;
+
+	display: block;
+	object-fit: contain;
+}
+
+.wrapper p img.small {
+	padding: 10vh 0;
+	max-height: 50vh;
+}
+
 /* Text */
 a {
 	color: black;
 	text-decoration: none;
-	text-decoration-color: #bbb;
 }
 
 a:hover {
 	text-decoration: underline;
 	text-underline-offset: 2px;
 	text-decoration-thickness: 1px;
-	text-decoration-color: black;
-}
-
-p.center {
-	text-align: center;
-	max-width: 50ch;
-	margin: 1em auto;
-}
-
-div.post {
-	max-width: 70ch;
-	text-align: justify;
-	margin: 0 auto; 
-}
-
-p.date {
-	font-weight: bold;
+	text-decoration-color: #bbb; 
 }
 
 blockquote {
-	text-align: justify;
-	margin: 1em auto;
-	max-width: 68ch;
-	border-left: 1px #bbb solid;
-	padding-left: 2ch;
+	max-width: 80ch;
+	border-left: 1px solid #bbb;
+	padding: 0 20px;
+	margin: 2em auto;
 }
 
-
-/* Horizontal rule */
-hr {
-	border: none;
-	padding: 3em;
+blockquote p {
+	font-style: italic;
+	margin: 0px;
 }
 
-hr::before {
-	content: '*';
-	display: block;
-	text-align: center;
+del {
+	text-decoration: none;
+	color: gray;
 }
 
-/* Images */
-img {
-	display: block;
-	margin: 1em  auto;
-	max-width: 100%;
-	max-height: 80vh;
-	padding: 20vh 0;
+h1 {
+	font-weight: normal;
 }
 
-img.right {
-	padding-left: 50%;
-}
-
-img.left {
-	padding-right: 50%;
-}
-
-img.landing {
-	max-height: 60vh;
-	padding: 2vh 0;
-}
-
-/* Mobile */
 @media screen and (max-width: 1000px) {
 	body {
 		margin: 1em; 
 	}
 
-	img, img.right, img.left {
-		padding: 2vh 0;
+	.wrapper p img {
+		padding: 5vh 0;
+	}
+
+	.wrapper > p:has(img.left) {
+		padding: 5vh 0;
+	}
+
+	.wrapper > p:has(img.right) {
+		padding: 5vh 0;
 	}
 }
