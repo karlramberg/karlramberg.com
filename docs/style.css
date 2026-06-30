@@ -39,10 +39,6 @@ body {
 	width: 135px;
 }
 
-#content {
-	padding: 10vh 0vh;
-}
-
 .wrapper {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) min(80ch, 100%) minmax(0, 1fr);
@@ -76,8 +72,9 @@ body {
 }
 
 .wrapper p img.small {
-	padding: 10vh 0;
-	max-height: 50vh;
+	padding: 5vh 0;
+	max-width: 80ch;
+	margin: auto;
 }
 
 /* Text */
