@@ -95,15 +95,11 @@ img.small {
 		margin: 1em; 
 	}
 
-	.wrapper p img {
-		padding: 5vh 0;
+	img {
+		padding: 5vh 0 !important;
 	}
 
-	.wrapper > p:has(img.left) {
-		padding: 5vh 0;
-	}
-
-	.wrapper > p:has(img.right) {
-		padding: 5vh 0;
+	#title {
+		display: none;
 	}
 }
