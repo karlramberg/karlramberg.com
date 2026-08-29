@@ -1,20 +1,4 @@
-/* Font */
-@font-face {
-	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-serif.woff)
-}
-
-@font-face {
-	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-italic.woff);
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Computer Modern';
-	src: url(fonts/computer-modern-bold.woff);
-	font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* Layout */
 html {
@@ -22,15 +6,15 @@ html {
 }
 
 body {
-	font-family: 'Computer Modern', serif;
+	font-family: 'IBM Plex Mono', monospace; 
 	line-height: 1.5;
-	font-size: 14px;
-	margin: 20px 30px;
+	font-size: 13px;
+	margin: 20px 30px; 
 }
 
 #name {
 	float: left;
-	width: 161px;
+	width: 94px;
 }
 
 #title {
@@ -41,7 +25,7 @@ body {
 #menu {
 	float: right;
 	text-align: right;
-	width: 161px;
+	width: 94px;
 }
 
 #content {
@@ -90,7 +74,7 @@ img.small {
 	padding: 2vh 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	body {
 		margin: 1em; 
 	}
